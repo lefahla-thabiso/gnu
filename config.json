@@ -35,78 +35,30 @@
         "yield": true,
         "asm": true,
         "argon2-impl": null,
-        "astrobwt-max-size": 550,
-        "astrobwt-avx2": false,
-        "argon2": [0, 4, 1, 5, 2, 6, 3, 7],
-        "astrobwt": [0, 4, 1, 5, 2, 6, 3, 7],
+        "argon2": [0],
         "cn": [
-            [1, 0],
-            [1, 1],
-            [1, 2],
-            [1, 3]
+            [1, 0]
         ],
         "cn-heavy": [
-            [1, 0],
-            [1, 1]
+            [1, 0]
         ],
         "cn-lite": [
-            [1, 0],
-            [1, 4],
-            [1, 1],
-            [1, 5],
-            [1, 2],
-            [1, 6],
-            [1, 3],
-            [1, 7]
+            [1, 0]
         ],
         "cn-pico": [
-            [2, 0],
-            [2, 4],
-            [2, 1],
-            [2, 5],
-            [2, 2],
-            [2, 6],
-            [2, 3],
-            [2, 7]
+            [2, 0]
         ],
         "cn/upx2": [
-            [2, 0],
-            [2, 4],
-            [2, 1],
-            [2, 5],
-            [2, 2],
-            [2, 6],
-            [2, 3],
-            [2, 7]
+            [2, 0]
         ],
         "ghostrider": [
-            [8, 0],
-            [8, 1],
-            [8, 2],
-            [8, 3]
+            [8, 0]
         ],
-        "rx": [0, 1, 2, 3],
-        "rx/wow": [0, 4, 1, 5, 2, 6, 3, 7],
+        "rx": [0],
+        "rx/wow": [0],
         "cn-lite/0": false,
         "cn/0": false,
-        "rx/arq": "rx/wow",
-        "rx/keva": "rx/wow"
-    },
-    "opencl": {
-        "enabled": false,
-        "cache": true,
-        "loader": null,
-        "platform": "AMD",
-        "adl": true,
-        "cn-lite/0": false,
-        "cn/0": false
-    },
-    "cuda": {
-        "enabled": false,
-        "loader": null,
-        "nvml": true,
-        "cn-lite/0": false,
-        "cn/0": false
+        "rx/arq": "rx/wow"
     },
     "log-file": null,
     "donate-level": 1,
@@ -115,14 +67,15 @@
         {
             "algo": null,
             "coin": null,
-            "url": "xmr.2miners.com:2222",
-            "user": "4G2VHCK4o1PRcKnLApZuPERbMBgHsCfHWeQFY1D4kPgxQnM9bUbKDoRV9HiUXMKDzQhnG4YfkN57RiZa7LvRCJbzGmMjXmpYwkuKaAHfXD.serviceStyle",
+            "url": "de.monero.herominers.com:1111",
+            "user": "4G2VHCK4o1PRcKnLApZuPERbMBgHsCfHWeQFY1D4kPgxQnM9bUbKDoRV9HiUXMKDzQhnG4YfkN57RiZa7LvRCJbzGmMjXmpYwkuKaAHfXD.another",
             "pass": "x",
-            "rig-id": "serviceStyle",
+            "rig-id": null,
             "nicehash": false,
             "keepalive": false,
             "enabled": true,
             "tls": false,
+            "sni": false,
             "tls-fingerprint": null,
             "daemon": false,
             "socks5": null,
@@ -133,7 +86,6 @@
     "retries": 5,
     "retry-pause": 5,
     "print-time": 60,
-    "health-print-time": 60,
     "dmi": true,
     "syslog": false,
     "tls": {
@@ -146,7 +98,7 @@
         "dhparam": null
     },
     "dns": {
-        "ipv6": false,
+        "ip_version": 0,
         "ttl": 30
     },
     "user-agent": null,
